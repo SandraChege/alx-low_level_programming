@@ -4,6 +4,7 @@
  * main-Prints the alphabet in lowercase then uppercase
  * return (0)
  */
+
 int main(void)
 {
 	char ch = 'a';
@@ -14,7 +15,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	while (CH <= 'A')
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
