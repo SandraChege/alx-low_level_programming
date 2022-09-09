@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - main block
+ * main - main entry point
  *
  * Description - Get a random number
  *
  * and determine if it is zero, positive or negative
  *
- * return (0)
+ * return (0) Success
  */
 
 
