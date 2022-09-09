@@ -2,7 +2,7 @@
 
 /*
  * main-Prints the alphabet in lowercase then uppercase
- * return (0)
+ * return (0) success
  */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	
+
 	char cp = 'A';
 	
 	while (cp <= 'Z')
