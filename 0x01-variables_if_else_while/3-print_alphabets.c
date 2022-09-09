@@ -4,7 +4,6 @@
  * main-Prints the alphabet in lowercase then uppercase
  * return (0)
  */
-
 int main(void)
 {
 	char ch = 'a';
