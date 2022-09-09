@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - entry point and function 
+ * main - main block
  *
  * Description - Get a random number
  *
