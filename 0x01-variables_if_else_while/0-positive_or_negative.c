@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - entry point
+ * main - entry point and function 
  *
  * Description - Get a random number
  *
@@ -25,7 +25,7 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%i is positive\n", n);
-	} else if(n == 0)
+	} else if (n == 0)
 	{
 		printf("%i is zero\n", n);
 	} else
