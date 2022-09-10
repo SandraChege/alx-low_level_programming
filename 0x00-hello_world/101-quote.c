@@ -3,17 +3,16 @@
 
 /**
  * main - This is the main function
- * Description- Prints: "and that piece of art is useful" - Dora Korpar,
- * 2015-10-19.
+ * Description- Prints a quote from Dora Korpar.
  *
- * Return (1) -An error occurs
+ * Return: (1) An error occurs
 */
 
 int main(void)
 {
-	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	
-	write(2, quote, sizeof(quote));
+	char q[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, q, sizeof(q));
 
 	return (1);
 }
