@@ -10,13 +10,12 @@
 int main()
 {
 	int num;
+	char ch = 'a';
 
 	for (num=0; num <=10; num++)
 	{
 		putchar(num + '0');
 	}
-	
-	char ch = 'a';
 
 	while (ch <= 'f')
 	{
