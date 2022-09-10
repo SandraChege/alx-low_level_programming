@@ -30,7 +30,8 @@ int main(void)
 						putchar(' ');
 						putchar('0' + num2);
 						putchar('0' + num1);
-						if(!(num4 + num3 ==18 && num1 + num2 == 17 && num2 == 9)){
+						if (!(num4 + num3 == 18 && num1 + num2 == 17 && num2 == 9))
+						{
 							putchar(',');
 							putchar(' ');
 						}
