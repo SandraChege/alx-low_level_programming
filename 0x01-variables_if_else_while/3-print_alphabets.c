@@ -16,7 +16,7 @@ int main(void)
 	}
 
 	char cp = 'A';
-	
+
 	while (cp <= 'Z')
 	{
 		putchar(cp);
