@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  * main- Entry point
+ * Description - prints all alphabets from a-z
  *
- * Description - prints all alphabets
- *
- * from a-z
- *
- * return (0) success
+ * Return: always (0) success
  *
  */
 
