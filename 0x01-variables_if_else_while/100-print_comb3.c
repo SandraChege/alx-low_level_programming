@@ -14,7 +14,7 @@
  * You can only use putchar five times maximum in your code
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
- * 
+ *
  * Return: always (0) success
 */
 
@@ -22,7 +22,7 @@ int main(void)
 {
 	int num1;
 	int num2 = 0;
-	
+
 	while (num2 < 10)
 	{
 		num1 = 0;
@@ -33,16 +33,16 @@ int main(void)
 				putchar('0' + num2);
 				putchar('0' + num1);
 
-				if (num1 + num2 !=17)
+				if (num1 + num2 != 17)
 				{
 					putchar(',');
 					putchar(' ');
-				}	
-			}	
+				}
+			}
 
 			num1++;
 		}
-	
+
 		num2++;
 	}
 
