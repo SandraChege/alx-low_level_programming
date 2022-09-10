@@ -9,11 +9,16 @@
 
 int main()
 {
-	int num = 0;
+	int num, letter;
 
-	for (num=0; num <= 15; num++)
+	for (num=0; num <= 10; num++)
 	{
 		putchar(num + '0');
+	}
+
+	for (letter = 'a'; letter <= 'f'; a++)
+	{
+		putchar(letter);
 	}
 
 	putchar('\n');
