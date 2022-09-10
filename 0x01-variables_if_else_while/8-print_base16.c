@@ -7,12 +7,12 @@
  * Return: always (0) success
 */
 
-int main()
+int main(void)
 {
 	int num;
 	char ch = 'a';
 
-	for (num=0; num <=10; num++)
+	for (num = 0; num <= 10; num++)
 	{
 		putchar(num + '0');
 	}
@@ -20,6 +20,7 @@ int main()
 	while (ch <= 'f')
 	{
 		putchar(ch);
+		ch++;
 	}
 
 	putchar('\n');
