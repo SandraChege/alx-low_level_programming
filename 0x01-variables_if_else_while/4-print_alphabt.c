@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
+
+/**
  * main-prints all alphabetic letters except q and e in lowecase
- * return 0 success
+ * Return: always 0 success
  */
 
 int main(void)
