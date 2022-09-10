@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int num1, num2, num3, num4=10;
+	int num1, num2, num3, num4 = 10;
 
 	while (num4 < 10)
 	{
@@ -18,12 +18,12 @@ int main(void)
 		while (num3 < 10)
 		{
 			num2 = 0;
-			while(num2 < 10)
+			while (num2 < 10)
 			{
 				num1 = 0;
 				while (num1 < 10)
 				{
-					if(!(num4 == num1 && num3 == num2))
+					if (!(num4 == num1 && num3 == num2))
 					{
 						putchar('0' + num4);
 						putchar('0' + num3);
