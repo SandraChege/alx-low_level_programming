@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-/*
- * main-Prints the alphabet in lowercase then uppercase
- * return (0) success
+/**
+ * main-This is the main function
+ * Description - Prints the alphabet in lowercase then uppercase
+ *
+ * Return: always (0) success
  */
 
 int main(void)
@@ -24,7 +26,8 @@ int main(void)
 	}
 
 	putchar('\n');
-	
+
+
 	return (0);
 
 }
