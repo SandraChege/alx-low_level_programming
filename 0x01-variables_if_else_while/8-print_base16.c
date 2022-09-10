@@ -9,7 +9,9 @@
 
 int main()
 {
-	int num, letter;
+	int num;
+
+	char letter;
 
 	for (num=0; num <= 10; num++)
 	{
