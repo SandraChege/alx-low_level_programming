@@ -18,7 +18,7 @@ int main(void)
 	while (num3 < 10)
 	{
 		num2 = 0;
-		
+
 		while (num2 < 10)
 		{
 			num1 = 0;
@@ -36,22 +36,15 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-
 				}
-
 				num1++;
 			}
-
 			num2++;
-
 		}
-
 		num3++;
-
 	}
 
 	putchar('\n');
-
 	return (0);
 
 }
