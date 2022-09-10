@@ -11,16 +11,16 @@ int main()
 {
 	int num;
 
-	char letter;
+	char ch;
 
 	for (num=0; num <= 10; num++)
 	{
 		putchar(num + '0');
 	}
-
-	for (letter = 'a'; letter <= 'f'; a++)
+	
+	while (ch <= 'f')
 	{
-		putchar(letter);
+		putchar(ch);
 	}
 
 	putchar('\n');
