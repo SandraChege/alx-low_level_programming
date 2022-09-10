@@ -1,11 +1,13 @@
-include < stdio.h >
-/*
- *prints exactly with proper grammar, but the outcome is a piece of art
- *Conditions use print function
- *		don't use function puts
- *		return zero
- *		compile without warning
- */
+#include < stdio.h >
+
+/**
+ * main - this is the main function
+ * Description: prints "with proper grammar, but the outcome is a piece of
+ * art," followed by a new line
+ *
+ * Return: always (0) success
+*/
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
