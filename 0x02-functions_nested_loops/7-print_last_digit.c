@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_last_digit: prints last digit of a number
- * @n: used as function argument
+ * print_last_digit - prints last digit of a number
+ * @n: number to ckeck
  *
  * Return: last digit
 */
