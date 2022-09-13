@@ -2,6 +2,7 @@
 
 /**
  * print_sign - prints sign of a number
+ * @n: is int that will be used as function argument
  *
  * Return:(1) if +, 0 if 0 and (-1) if -
 */
