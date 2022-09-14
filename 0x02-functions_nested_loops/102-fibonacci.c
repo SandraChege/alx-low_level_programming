@@ -1,33 +1,30 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - Entry point
+ * main -entry point
+ * Description: prints the first 50 fibonacci numbers followed by new line
  *
- * Description: prints the first 50 Fibonacci numbers
- *		starting with 1 and 2 folled by a new line
- *
- * Return: Always 0 (Success)
+ * Return: always(0) success
 */
 
 int main(void)
 {
-	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	int i = 0;
+	long int a = 0, b = 1, next;
 
-	for (count = 0; count < 50; ++count)
+	while (i < 50)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
+		next = a + b;
+		a = b;
+		b = next;
+		printf("%lu", next);
 
-		fib1 = fib2;
-		fib2 = sum;
-
-		if (count == 49)
-			printf("\n");
-		else
+		if (i < 49)
+		{
 			printf(", ");
+		}
+		i++;
 	}
-
+	putchar('\n');
 	return (0);
 }
-
