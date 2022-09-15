@@ -19,7 +19,7 @@ void more_numbers(void)
 
 			if (num > 9)
 			{
-				_putchar(1 + 48);
+				_putchar('1');
 				san = num % 10;
 			}
 			_putchar(san + 48);
