@@ -14,7 +14,6 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		_putchar('\n');
 
 		for (flash = 1; flash <= n; flash++)
 		{
