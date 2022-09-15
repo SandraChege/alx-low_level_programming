@@ -12,20 +12,24 @@ void print_diagonal(int n)
 {
 	int flash, space;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	if (n > 0)
 	{
-		for (flash = 1; flash <= n; ++flash)
+		_putchar('\n');
+
+		for (flash = 1; flash <= n; flash++)
 		{
-			for (space = 1; space <= flash; ++space)
+			for (space = 1; space <= flash; space++)
 			{
 				_putchar(' ');
 			}
 
-			_putchar(92); /*is equal to '/' char*/
+			_putchar(92);	/*is equal to '/' char*/
 			_putchar('\n');
 		}
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
 
