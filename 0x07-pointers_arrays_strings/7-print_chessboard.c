@@ -4,9 +4,8 @@
  * print_chessboard - description
  * @a: board
  *
- * Return: void
+ * Return: nothing
 */
-
 
 void print_chessboard(char (*a)[8])
 {
