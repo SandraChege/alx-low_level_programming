@@ -12,11 +12,18 @@
 int _strlen(char *s)
 {
 	int size = 0;
+
 	for (; s[size] != '\0'; size++)
 		;
 	return (size);
 }
 
+/**
+ * *str_concat - function conatenating two strings
+ * @s1: string 1
+ * @s2: string 2
+ * Return: pointer
+*/
 
 char *str_concat(char *s1, char *s2)
 	{
