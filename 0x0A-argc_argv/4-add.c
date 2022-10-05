@@ -33,7 +33,7 @@ int isNum(char num[])
 
 int main(int argc, char *argv[])
 {
-	int i, sum;
+	int p, sum;
 
 	if (argc == 1)
 	{
@@ -42,11 +42,11 @@ int main(int argc, char *argv[])
 	else
 	{
 		sum = 0;
-		for (i = 1; i < argc; i++)
+		for (p = 1; p < argc; p++)
 		{
-			if (isNum(argv[i]) == 0)
+			if (isNum(argv[p]) == 0)
 			{
-				sum += atoi(argv[i]);
+				sum += atoi(argv[p]);
 			}
 			else
 			{
