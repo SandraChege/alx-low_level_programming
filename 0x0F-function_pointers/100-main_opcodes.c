@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	for (prod = 0; prod < num; prod++)
+	for (prod = 0; prod < nums; prod++)
 	{
 		printf("%02x", ptr[prod] & 0xFF);
 		if (prod != nums - 1)
